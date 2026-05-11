@@ -1,0 +1,24 @@
+name: Airflow CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  validate-airflow-project:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Astro CLI
+        uses: astronomer/setup-astro-cli@v0.0.1
+
+      - name: Check Astro version
+        run: astro version
+
+      - name: Validate DAG parsing
+        run: astro dev parse

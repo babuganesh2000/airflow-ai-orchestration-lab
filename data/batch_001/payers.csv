@@ -1,0 +1,16 @@
+payer_id,payer_name,payer_category,contract_type
+1,James LLC Health,Commercial,Capitated
+2,Munoz-Roman Health,Commercial,Capitated
+3,"Stevens, Martinez and Nielsen Health",Self Pay,Standard
+4,Arnold Ltd Health,Commercial,Standard
+5,"Mcclure, Ward and Lee Health",Medicare,Standard
+6,Williams and Sons Health,Commercial,Capitated
+7,Galloway-Wyatt Health,Medicare,Capitated
+8,James Group Health,Self Pay,Standard
+9,"Flowers, Martin and Kelly Health",Self Pay,Capitated
+10,"Adams, Zuniga and Wong Health",Medicaid,Standard
+11,"Reid, Ferguson and Sanchez Health",Medicare,Capitated
+12,Gray-Mayo Health,Self Pay,Value-Based
+13,"Watts, Robinson and Nguyen Health",Medicaid,Standard
+14,Perez Inc Health,Medicare,Value-Based
+15,Morales-Jones Health,Commercial,Standard

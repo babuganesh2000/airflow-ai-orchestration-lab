@@ -1,0 +1,12 @@
+connections:
+  - conn_id: snowflake_default
+    conn_type: snowflake
+    conn_host: "<your_account>.snowflakecomputing.com"
+    conn_login: "<your_username>"
+    conn_password: "<set_locally_only>"
+    conn_schema: "<schema>"
+    conn_extra:
+      account: "<your_account>"
+      warehouse: "<warehouse>"
+      database: "<database>"
+      role: "<role>"

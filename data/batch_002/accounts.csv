@@ -1,0 +1,701 @@
+account_id,patient_id,facility_id,current_balance,assignment_status,collector_id,queue_name,updated_at,load_ts,batch_id,src_file_name
+1001,501001,4,3507.86,Unassigned,12,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1002,501002,6,17917.29,Assigned,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1003,501003,6,8550.2,Assigned,10,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1004,501004,4,13942.71,Unassigned,18,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1005,501005,5,3003.71,Escalated,1,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1006,501006,7,19083.08,Unassigned,15,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1007,501007,3,10848.28,Assigned,5,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1008,501008,3,13349.06,Escalated,17,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1009,501009,7,8135.69,Unassigned,20,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1010,501010,1,14469.61,Assigned,1,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1011,501011,6,2408.25,Unassigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1012,501012,1,20270.55,Escalated,12,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1013,501013,2,18504.02,Unassigned,20,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1014,501014,3,7972.28,Assigned,1,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1015,501015,6,10404.6,Assigned,15,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1016,501016,4,1270.95,Escalated,6,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1017,501017,8,17348.31,Escalated,8,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1018,501018,8,20122.79,Assigned,12,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1019,501019,4,19742.43,Escalated,10,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1020,501020,7,21147.13,Escalated,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1021,501021,8,2608.69,Assigned,6,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1022,501022,1,12519.05,Assigned,2,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1023,501023,1,1548.09,Escalated,5,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1024,501024,2,19244.2,Unassigned,6,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1025,501025,5,14229.85,Assigned,1,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1026,501026,8,5195.86,Unassigned,17,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1027,501027,2,2098.16,Unassigned,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1028,501028,7,9946.93,Escalated,5,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1029,501029,1,8581.09,Unassigned,7,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1030,501030,4,4076.35,Unassigned,8,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1031,501031,3,5949.74,Assigned,6,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1032,501032,2,1115.35,Escalated,4,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1033,501033,4,3569.54,Unassigned,19,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1034,501034,7,19181.06,Assigned,16,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1035,501035,7,5666.8,Unassigned,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1036,501036,8,3325.35,Unassigned,10,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1037,501037,1,15905.19,Assigned,5,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1038,501038,3,1248.78,Escalated,6,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1039,501039,2,12661.71,Escalated,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1040,501040,2,20011.4,Escalated,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1041,501041,2,8933.21,Escalated,2,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1042,501042,5,4374.33,Escalated,14,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1043,501043,5,8436.13,Escalated,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1044,501044,6,19744.66,Assigned,4,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1045,501045,2,1596.17,Assigned,20,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1046,501046,3,19834.6,Assigned,11,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1047,501047,5,3387.91,Escalated,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1048,501048,5,19802.71,Assigned,8,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1049,501049,2,18911.08,Escalated,1,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1050,501050,5,6017.85,Assigned,14,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1051,501051,5,10760.97,Unassigned,5,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1052,501052,7,17630.9,Assigned,4,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1053,501053,3,13554.08,Unassigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1054,501054,7,11937.94,Assigned,6,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1055,501055,1,17742.18,Escalated,1,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1056,501056,7,2745.3,Unassigned,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1057,501057,6,4497.7,Assigned,7,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1058,501058,7,20695.15,Escalated,8,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1059,501059,3,20745.39,Assigned,17,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1060,501060,3,15663.19,Unassigned,17,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1061,501061,5,3418.69,Escalated,7,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1062,501062,1,18251.12,Assigned,10,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1063,501063,6,6514.83,Assigned,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1064,501064,4,8492.97,Unassigned,6,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1065,501065,6,13646.72,Unassigned,1,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1066,501066,1,2488.61,Unassigned,9,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1067,501067,1,2341.44,Unassigned,15,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1068,501068,7,12898.67,Escalated,7,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1069,501069,4,5444.53,Escalated,17,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1070,501070,4,7766.73,Assigned,14,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1071,501071,2,15306.69,Unassigned,20,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1072,501072,7,6960.02,Escalated,13,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1073,501073,4,8959.12,Unassigned,9,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1074,501074,7,11662.88,Assigned,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1075,501075,4,9159.35,Escalated,3,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1076,501076,8,9411.68,Escalated,10,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1077,501077,3,14015.08,Unassigned,20,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1078,501078,2,17399.22,Assigned,13,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1079,501079,4,3167.51,Assigned,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1080,501080,2,9700.74,Escalated,2,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1081,501081,7,10527.0,Assigned,8,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1082,501082,2,16550.85,Assigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1083,501083,1,11863.68,Assigned,18,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1084,501084,8,14200.15,Escalated,3,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1085,501085,8,13035.33,Escalated,20,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1086,501086,8,19070.04,Escalated,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1087,501087,5,15985.81,Escalated,12,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1088,501088,4,5866.03,Assigned,13,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1089,501089,5,7164.99,Escalated,6,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1090,501090,3,4946.97,Escalated,8,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1091,501091,2,8840.81,Unassigned,1,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1092,501092,7,1363.0,Unassigned,16,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1093,501093,7,10158.04,Unassigned,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1094,501094,7,11456.81,Escalated,1,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1095,501095,8,4695.88,Unassigned,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1096,501096,7,7170.97,Escalated,16,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1097,501097,8,19543.68,Escalated,1,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1098,501098,7,12595.06,Escalated,4,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1099,501099,7,2920.34,Unassigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1100,501100,5,8082.34,Assigned,18,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1101,501101,6,16186.28,Unassigned,12,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1102,501102,5,17748.88,Unassigned,4,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1103,501103,6,4797.69,Assigned,5,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1104,501104,4,4270.44,Assigned,3,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1105,501105,4,2719.33,Escalated,7,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1106,501106,8,14876.4,Unassigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1107,501107,3,20501.81,Assigned,2,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1108,501108,5,12253.71,Unassigned,16,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1109,501109,2,12599.41,Escalated,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1110,501110,5,18075.1,Escalated,7,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1111,501111,6,11340.69,Escalated,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1112,501112,6,310.82,Unassigned,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1113,501113,7,20418.4,Escalated,18,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1114,501114,7,3777.93,Escalated,12,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1115,501115,8,9279.94,Escalated,2,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1116,501116,6,18105.2,Assigned,12,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1117,501117,4,15958.22,Escalated,3,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1118,501118,6,651.15,Unassigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1119,501119,4,7567.45,Unassigned,14,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1120,501120,5,11829.44,Escalated,10,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1121,501121,4,15313.48,Unassigned,1,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1122,501122,8,13740.49,Unassigned,18,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1123,501123,2,6282.5,Unassigned,11,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1124,501124,6,10079.17,Escalated,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1125,501125,6,7503.52,Unassigned,12,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1126,501126,5,4931.63,Escalated,10,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1127,501127,2,15797.15,Escalated,9,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1128,501128,4,15706.46,Unassigned,2,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1129,501129,2,17700.47,Unassigned,11,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1130,501130,3,6452.84,Escalated,1,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1131,501131,5,1007.78,Assigned,1,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1132,501132,3,13570.12,Unassigned,7,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1133,501133,5,9997.23,Unassigned,14,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1134,501134,1,5396.94,Unassigned,7,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1135,501135,7,10471.22,Escalated,5,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1136,501136,3,17244.79,Unassigned,6,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1137,501137,2,11877.83,Unassigned,3,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1138,501138,7,9596.79,Unassigned,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1139,501139,5,12101.71,Assigned,3,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1140,501140,4,13308.11,Unassigned,6,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1141,501141,4,3728.65,Assigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1142,501142,7,9596.56,Escalated,19,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1143,501143,1,4951.53,Escalated,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1144,501144,2,14620.21,Unassigned,2,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1145,501145,7,2476.62,Assigned,8,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1146,501146,3,1556.93,Assigned,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1147,501147,8,2679.73,Escalated,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1148,501148,5,10656.26,Unassigned,18,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1149,501149,1,18904.93,Escalated,14,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1150,501150,1,1979.32,Escalated,2,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1151,501151,5,12263.26,Assigned,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1152,501152,5,3891.43,Escalated,17,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1153,501153,2,10010.25,Unassigned,14,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1154,501154,2,18232.87,Unassigned,17,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1155,501155,5,14094.24,Unassigned,1,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1156,501156,8,1910.03,Unassigned,14,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1157,501157,7,18385.09,Assigned,1,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1158,501158,7,1192.03,Escalated,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1159,501159,8,16160.0,Assigned,12,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1160,501160,5,9333.85,Escalated,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1161,501161,1,20680.51,Escalated,11,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1162,501162,5,11724.42,Escalated,17,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1163,501163,4,21085.8,Assigned,18,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1164,501164,3,10611.8,Escalated,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1165,501165,7,17744.91,Unassigned,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1166,501166,3,8177.4,Escalated,20,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1167,501167,2,5901.01,Unassigned,14,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1168,501168,1,6040.81,Unassigned,2,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1169,501169,3,9512.66,Unassigned,15,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1170,501170,7,9699.22,Unassigned,10,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1171,501171,7,4995.77,Unassigned,5,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1172,501172,8,14998.62,Unassigned,16,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1173,501173,8,20504.01,Assigned,20,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1174,501174,2,18581.89,Unassigned,7,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1175,501175,1,15363.72,Unassigned,8,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1176,501176,8,16616.7,Unassigned,14,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1177,501177,2,18106.31,Escalated,1,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1178,501178,6,13335.34,Unassigned,1,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1179,501179,2,5021.39,Escalated,13,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1180,501180,2,9245.95,Assigned,7,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1181,501181,3,14760.53,Assigned,5,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1182,501182,1,6264.1,Unassigned,17,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1183,501183,4,11307.21,Escalated,9,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1184,501184,3,1717.22,Unassigned,3,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1185,501185,8,19401.32,Assigned,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1186,501186,5,9788.84,Escalated,4,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1187,501187,5,14412.93,Assigned,6,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1188,501188,6,20988.12,Unassigned,17,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1189,501189,8,17969.28,Assigned,16,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1190,501190,2,5073.04,Escalated,15,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1191,501191,5,507.78,Escalated,16,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1192,501192,1,12044.44,Escalated,5,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1193,501193,5,16494.03,Assigned,3,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1194,501194,4,13543.58,Escalated,12,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1195,501195,2,19201.43,Escalated,5,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1196,501196,8,750.08,Unassigned,8,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1197,501197,5,6971.39,Unassigned,9,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1198,501198,3,16722.47,Unassigned,20,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1199,501199,3,5492.19,Unassigned,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1200,501200,2,9974.64,Assigned,8,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1201,501201,7,20555.87,Escalated,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1202,501202,7,337.68,Escalated,7,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1203,501203,6,14311.51,Escalated,12,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1204,501204,6,2340.25,Assigned,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1205,501205,6,19452.79,Assigned,6,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1206,501206,5,13811.24,Assigned,8,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1207,501207,1,6497.32,Unassigned,7,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1208,501208,4,18859.05,Assigned,16,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1209,501209,6,14261.84,Escalated,1,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1210,501210,3,18819.91,Escalated,7,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1211,501211,7,19957.46,Unassigned,5,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1212,501212,4,9445.55,Assigned,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1213,501213,6,11589.26,Escalated,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1214,501214,7,5893.25,Assigned,18,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1215,501215,4,13651.45,Escalated,4,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1216,501216,6,5207.98,Assigned,2,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1217,501217,2,17640.87,Escalated,10,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1218,501218,4,7010.43,Assigned,3,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1219,501219,5,18247.15,Assigned,8,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1220,501220,3,2373.76,Assigned,8,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1221,501221,6,16796.1,Assigned,2,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1222,501222,1,3737.82,Assigned,8,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1223,501223,2,15856.2,Unassigned,18,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1224,501224,2,9628.41,Assigned,3,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1225,501225,5,9756.44,Assigned,5,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1226,501226,7,9082.7,Assigned,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1227,501227,2,19113.7,Unassigned,3,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1228,501228,2,2718.71,Escalated,2,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1229,501229,7,21136.07,Escalated,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1230,501230,7,2145.82,Escalated,7,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1231,501231,7,9618.86,Assigned,17,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1232,501232,8,8498.57,Escalated,7,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1233,501233,7,6670.34,Unassigned,15,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1234,501234,8,1466.23,Assigned,6,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1235,501235,2,15833.37,Unassigned,8,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1236,501236,6,14251.81,Unassigned,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1237,501237,1,20579.82,Escalated,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1238,501238,2,12298.71,Assigned,8,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1239,501239,4,18011.08,Unassigned,1,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1240,501240,2,16215.46,Escalated,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1241,501241,1,12957.76,Escalated,12,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1242,501242,3,5837.88,Unassigned,14,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1243,501243,1,3889.66,Assigned,2,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1244,501244,2,3051.3,Escalated,4,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1245,501245,4,8020.64,Unassigned,14,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1246,501246,6,6651.55,Unassigned,2,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1247,501247,1,3341.96,Escalated,5,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1248,501248,5,9439.82,Unassigned,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1249,501249,7,5835.68,Escalated,7,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1250,501250,7,2394.19,Escalated,2,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1251,501251,5,1005.69,Unassigned,3,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1252,501252,1,4377.81,Assigned,8,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1253,501253,5,7001.15,Assigned,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1254,501254,3,2782.2,Escalated,11,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1255,501255,2,8463.39,Escalated,5,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1256,501256,1,9792.74,Assigned,14,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1257,501257,7,15089.2,Unassigned,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1258,501258,7,484.81,Unassigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1259,501259,6,1911.51,Assigned,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1260,501260,7,11154.44,Unassigned,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1261,501261,4,7106.05,Assigned,6,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1262,501262,4,19254.85,Unassigned,15,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1263,501263,4,2222.72,Unassigned,10,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1264,501264,3,16164.76,Escalated,6,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1265,501265,8,9881.79,Escalated,2,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1266,501266,6,18371.02,Escalated,14,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1267,501267,8,1490.68,Unassigned,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1268,501268,1,7506.32,Assigned,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1269,501269,8,840.06,Unassigned,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1270,501270,2,13085.29,Escalated,16,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1271,501271,1,9580.23,Escalated,10,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1272,501272,8,10675.24,Assigned,18,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1273,501273,6,20876.44,Assigned,20,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1274,501274,1,5296.53,Unassigned,18,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1275,501275,6,7949.76,Unassigned,16,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1276,501276,6,14440.22,Assigned,14,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1277,501277,6,2046.73,Escalated,16,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1278,501278,5,15391.08,Escalated,3,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1279,501279,6,1770.95,Escalated,8,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1280,501280,5,20564.93,Escalated,16,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1281,501281,2,6607.96,Unassigned,14,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1282,501282,2,13743.07,Unassigned,20,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1283,501283,1,7732.29,Assigned,10,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1284,501284,8,4114.45,Assigned,8,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1285,501285,5,17950.72,Assigned,20,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1286,501286,6,18628.6,Escalated,8,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1287,501287,3,3483.36,Escalated,3,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1288,501288,8,969.11,Unassigned,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1289,501289,5,15998.84,Unassigned,11,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1290,501290,5,20520.39,Unassigned,10,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1291,501291,8,9833.58,Unassigned,16,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1292,501292,3,17366.72,Escalated,8,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1293,501293,1,13640.31,Unassigned,1,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1294,501294,2,6087.97,Assigned,12,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1295,501295,3,17666.93,Assigned,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1296,501296,6,19775.48,Unassigned,5,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1297,501297,6,5042.76,Assigned,15,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1298,501298,1,6801.01,Assigned,14,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1299,501299,3,854.81,Unassigned,8,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1300,501300,8,13092.5,Assigned,4,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1301,501301,4,17749.98,Escalated,3,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1302,501302,2,16503.18,Assigned,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1303,501303,1,5099.21,Escalated,3,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1304,501304,2,2393.52,Unassigned,3,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1305,501305,4,15281.03,Unassigned,17,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1306,501306,6,5144.27,Unassigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1307,501307,6,1477.81,Escalated,1,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1308,501308,7,18563.68,Assigned,16,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1309,501309,5,15891.22,Unassigned,6,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1310,501310,4,15586.35,Escalated,7,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1311,501311,3,982.75,Escalated,14,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1312,501312,8,20843.22,Unassigned,9,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1313,501313,2,15228.02,Unassigned,5,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1314,501314,4,971.52,Assigned,5,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1315,501315,5,10972.5,Escalated,19,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1316,501316,1,16017.92,Assigned,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1317,501317,1,18403.92,Unassigned,12,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1318,501318,6,9309.15,Unassigned,18,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1319,501319,6,20692.74,Unassigned,19,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1320,501320,5,17032.84,Escalated,17,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1321,501321,7,12819.03,Assigned,1,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1322,501322,6,2218.35,Unassigned,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1323,501323,8,12822.6,Unassigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1324,501324,6,9525.01,Escalated,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1325,501325,5,13604.05,Assigned,6,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1326,501326,6,10923.78,Escalated,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1327,501327,3,18040.66,Escalated,18,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1328,501328,3,1468.35,Escalated,15,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1329,501329,7,20178.32,Assigned,3,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1330,501330,8,20164.68,Unassigned,18,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1331,501331,3,11271.02,Unassigned,14,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1332,501332,4,20412.73,Assigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1333,501333,7,19416.46,Assigned,12,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1334,501334,8,4593.0,Escalated,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1335,501335,4,2643.33,Assigned,18,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1336,501336,8,21191.94,Escalated,14,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1337,501337,2,11706.57,Unassigned,13,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1338,501338,3,16874.81,Escalated,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1339,501339,4,16840.23,Assigned,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1340,501340,6,11791.91,Unassigned,18,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1341,501341,2,1436.86,Unassigned,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1342,501342,7,17503.47,Assigned,8,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1343,501343,2,9585.33,Escalated,20,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1344,501344,3,18661.84,Escalated,2,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1345,501345,3,9217.26,Assigned,7,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1346,501346,5,3534.46,Unassigned,11,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1347,501347,5,17982.64,Unassigned,10,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1348,501348,3,13297.66,Escalated,1,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1349,501349,3,12593.28,Escalated,8,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1350,501350,6,17910.45,Escalated,5,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1351,501351,2,1006.63,Escalated,2,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1352,501352,4,16307.79,Unassigned,3,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1353,501353,8,18895.9,Escalated,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1354,501354,8,5235.74,Escalated,16,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1355,501355,8,1590.08,Assigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1356,501356,7,10312.26,Assigned,14,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1357,501357,6,18312.44,Unassigned,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1358,501358,3,16174.3,Escalated,1,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1359,501359,6,5169.16,Assigned,12,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1360,501360,4,3030.16,Assigned,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1361,501361,7,5307.69,Assigned,14,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1362,501362,4,16226.4,Unassigned,20,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1363,501363,8,18685.5,Unassigned,4,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1364,501364,7,10761.71,Assigned,10,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1365,501365,1,1114.33,Unassigned,3,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1366,501366,5,11424.37,Assigned,17,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1367,501367,5,15471.13,Unassigned,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1368,501368,7,1127.42,Escalated,10,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1369,501369,5,1601.93,Escalated,18,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1370,501370,2,2771.13,Assigned,16,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1371,501371,6,11872.72,Unassigned,8,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1372,501372,7,10647.9,Assigned,5,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1373,501373,6,17092.61,Escalated,18,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1374,501374,3,6997.84,Escalated,14,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1375,501375,7,21050.98,Escalated,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1376,501376,8,15073.1,Unassigned,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1377,501377,6,7067.27,Assigned,17,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1378,501378,1,12701.46,Unassigned,2,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1379,501379,1,12417.57,Assigned,20,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1380,501380,3,17467.88,Assigned,5,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1381,501381,4,444.12,Unassigned,17,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1382,501382,7,14686.28,Unassigned,20,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1383,501383,1,15010.23,Escalated,10,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1384,501384,8,11186.55,Unassigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1385,501385,6,11627.59,Escalated,12,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1386,501386,4,20345.23,Unassigned,1,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1387,501387,4,20009.05,Unassigned,13,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1388,501388,8,6766.14,Unassigned,1,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1389,501389,5,2627.15,Escalated,1,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1390,501390,7,17398.24,Assigned,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1391,501391,5,20302.32,Assigned,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1392,501392,5,15891.68,Assigned,10,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1393,501393,5,2953.72,Escalated,2,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1394,501394,4,1119.11,Escalated,11,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1395,501395,1,2167.45,Unassigned,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1396,501396,3,152.39,Escalated,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1397,501397,8,10167.99,Assigned,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1398,501398,5,13740.38,Assigned,2,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1399,501399,1,19409.82,Assigned,17,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+1400,501400,1,21190.02,Unassigned,19,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5001,505001,8,4789.18,Escalated,3,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5002,505002,8,21520.8,Unassigned,6,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5003,505003,3,21318.27,Unassigned,9,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5004,505004,8,9324.8,Escalated,20,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5005,505005,5,23949.78,Escalated,5,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5006,505006,2,7902.01,Assigned,16,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5007,505007,6,18292.49,Unassigned,4,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5008,505008,8,12688.4,Escalated,5,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5009,505009,5,12804.15,Unassigned,15,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5010,505010,5,3192.14,Escalated,18,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5011,505011,5,23447.57,Unassigned,3,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5012,505012,8,12090.41,Unassigned,9,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5013,505013,1,13449.25,Escalated,6,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5014,505014,8,1911.46,Assigned,20,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5015,505015,1,3993.01,Escalated,17,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5016,505016,4,19711.28,Assigned,6,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5017,505017,2,19936.21,Unassigned,4,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5018,505018,6,7766.93,Unassigned,17,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5019,505019,8,7720.73,Assigned,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5020,505020,5,15075.09,Escalated,5,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5021,505021,6,15529.76,Escalated,17,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5022,505022,7,18808.0,Assigned,9,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5023,505023,4,2957.31,Assigned,4,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5024,505024,3,12852.52,Unassigned,12,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5025,505025,2,2898.21,Assigned,6,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5026,505026,1,2688.97,Assigned,20,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5027,505027,8,11853.05,Assigned,4,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5028,505028,3,22995.49,Unassigned,20,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5029,505029,4,6779.3,Assigned,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5030,505030,6,17027.18,Assigned,10,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5031,505031,6,13123.29,Assigned,4,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5032,505032,1,14173.7,Escalated,1,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5033,505033,6,7631.42,Assigned,17,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5034,505034,2,22099.08,Unassigned,4,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5035,505035,2,1658.42,Assigned,6,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5036,505036,2,18879.11,Assigned,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5037,505037,3,15941.4,Escalated,1,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5038,505038,7,17383.22,Assigned,1,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5039,505039,8,8928.68,Escalated,12,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5040,505040,7,10910.69,Unassigned,7,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5041,505041,4,19667.46,Unassigned,9,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5042,505042,3,16459.3,Assigned,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5043,505043,8,7637.76,Unassigned,10,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5044,505044,7,14621.87,Unassigned,4,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5045,505045,6,17179.74,Escalated,10,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5046,505046,6,24098.57,Unassigned,16,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5047,505047,5,14558.47,Unassigned,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5048,505048,6,1673.86,Escalated,14,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5049,505049,2,21052.07,Unassigned,1,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5050,505050,4,19599.03,Escalated,3,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5051,505051,1,23000.99,Assigned,13,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5052,505052,6,8755.86,Assigned,20,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5053,505053,2,2062.79,Unassigned,15,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5054,505054,7,14192.44,Escalated,15,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5055,505055,2,7618.67,Assigned,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5056,505056,4,17203.8,Assigned,3,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5057,505057,1,6123.87,Escalated,9,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5058,505058,1,3060.41,Escalated,4,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5059,505059,4,2199.49,Escalated,19,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5060,505060,3,15877.97,Unassigned,5,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5061,505061,8,9360.56,Escalated,7,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5062,505062,8,21982.21,Assigned,6,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5063,505063,5,24915.87,Assigned,15,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5064,505064,4,1931.07,Assigned,3,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5065,505065,4,5104.75,Escalated,20,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5066,505066,1,4737.54,Assigned,2,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5067,505067,6,10814.15,Unassigned,11,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5068,505068,2,15395.9,Escalated,20,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5069,505069,2,2405.06,Unassigned,1,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5070,505070,7,877.73,Unassigned,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5071,505071,3,648.49,Assigned,15,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5072,505072,6,606.81,Unassigned,17,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5073,505073,2,11835.78,Escalated,2,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5074,505074,2,19366.26,Unassigned,14,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5075,505075,6,5708.23,Assigned,1,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5076,505076,3,15255.97,Assigned,6,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5077,505077,8,20842.15,Unassigned,15,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5078,505078,6,10877.63,Escalated,5,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5079,505079,4,23443.11,Unassigned,14,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5080,505080,2,23170.59,Unassigned,16,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5081,505081,4,4079.8,Unassigned,4,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5082,505082,1,12830.74,Escalated,9,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5083,505083,3,17323.91,Escalated,13,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5084,505084,6,20744.41,Assigned,14,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5085,505085,1,24415.76,Assigned,2,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5086,505086,5,22064.76,Unassigned,18,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5087,505087,6,5224.91,Unassigned,3,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5088,505088,2,1526.86,Assigned,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5089,505089,1,16085.27,Unassigned,9,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5090,505090,6,10523.58,Unassigned,10,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5091,505091,1,7546.64,Unassigned,6,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5092,505092,7,24312.71,Escalated,4,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5093,505093,1,8749.55,Escalated,16,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5094,505094,5,6027.44,Unassigned,9,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5095,505095,5,21264.46,Unassigned,20,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5096,505096,4,24734.31,Assigned,19,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5097,505097,2,13611.01,Assigned,10,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5098,505098,5,23044.71,Assigned,19,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5099,505099,5,15372.09,Escalated,4,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5100,505100,4,14849.71,Assigned,17,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5101,505101,4,21899.66,Escalated,10,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5102,505102,1,1510.2,Unassigned,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5103,505103,4,12024.44,Unassigned,5,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5104,505104,7,7556.28,Escalated,6,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5105,505105,3,8817.93,Unassigned,14,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5106,505106,4,8160.51,Assigned,13,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5107,505107,8,13871.9,Assigned,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5108,505108,2,22841.5,Assigned,15,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5109,505109,6,251.0,Unassigned,4,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5110,505110,4,14799.98,Unassigned,15,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5111,505111,5,18064.41,Escalated,7,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5112,505112,4,8914.84,Unassigned,8,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5113,505113,8,14774.65,Unassigned,15,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5114,505114,6,15619.02,Assigned,8,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5115,505115,7,17724.72,Unassigned,20,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5116,505116,5,12866.89,Escalated,20,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5117,505117,4,16203.0,Escalated,11,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5118,505118,7,13418.23,Unassigned,17,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5119,505119,7,18750.5,Escalated,16,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5120,505120,1,5985.54,Assigned,19,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5121,505121,3,7195.9,Escalated,7,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5122,505122,6,12531.94,Unassigned,2,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5123,505123,5,17435.49,Unassigned,5,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5124,505124,1,17412.02,Assigned,15,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5125,505125,5,6850.31,Escalated,6,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5126,505126,2,8229.44,Assigned,7,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5127,505127,8,24732.56,Escalated,6,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5128,505128,7,15893.35,Assigned,3,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5129,505129,3,20066.91,Assigned,4,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5130,505130,1,13306.51,Assigned,7,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5131,505131,4,9959.75,Assigned,5,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5132,505132,6,1904.93,Assigned,13,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5133,505133,3,1248.75,Unassigned,16,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5134,505134,2,12671.19,Escalated,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5135,505135,4,19557.07,Assigned,13,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5136,505136,4,4189.87,Escalated,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5137,505137,8,15899.99,Escalated,12,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5138,505138,4,15092.26,Assigned,1,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5139,505139,5,5366.44,Escalated,4,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5140,505140,5,3957.81,Unassigned,17,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5141,505141,7,2472.42,Unassigned,7,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5142,505142,6,11628.49,Escalated,17,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5143,505143,5,14457.87,Assigned,7,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5144,505144,7,17652.71,Unassigned,7,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5145,505145,5,19033.56,Unassigned,3,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5146,505146,4,11147.36,Unassigned,5,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5147,505147,5,2259.65,Escalated,12,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5148,505148,1,24226.47,Unassigned,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5149,505149,6,8372.32,Escalated,13,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5150,505150,5,14186.55,Escalated,18,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5151,505151,4,17189.68,Escalated,3,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5152,505152,3,8516.62,Escalated,17,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5153,505153,8,442.43,Assigned,3,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5154,505154,2,21313.93,Escalated,7,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5155,505155,7,1598.5,Escalated,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5156,505156,5,15230.75,Escalated,6,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5157,505157,2,10134.76,Escalated,7,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5158,505158,8,20264.68,Assigned,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5159,505159,6,11428.83,Assigned,17,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5160,505160,6,19488.37,Assigned,14,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5161,505161,4,7920.5,Escalated,15,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5162,505162,4,9345.38,Unassigned,17,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5163,505163,6,5651.76,Escalated,14,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5164,505164,1,6690.82,Assigned,18,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5165,505165,2,23089.05,Escalated,15,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5166,505166,1,22958.83,Unassigned,14,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5167,505167,2,11397.03,Escalated,1,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5168,505168,7,2602.46,Escalated,5,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5169,505169,3,13184.27,Assigned,5,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5170,505170,1,12649.63,Unassigned,3,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5171,505171,4,5519.58,Unassigned,8,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5172,505172,6,3258.84,Assigned,19,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5173,505173,1,5315.7,Unassigned,3,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5174,505174,7,13885.56,Assigned,9,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5175,505175,2,10951.81,Unassigned,2,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5176,505176,2,3557.72,Escalated,1,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5177,505177,6,9892.73,Assigned,10,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5178,505178,1,16605.85,Unassigned,1,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5179,505179,7,21136.0,Assigned,4,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5180,505180,6,9203.46,Escalated,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5181,505181,2,14073.27,Assigned,7,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5182,505182,4,5715.53,Unassigned,5,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5183,505183,8,22103.76,Assigned,5,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5184,505184,1,14801.16,Escalated,6,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5185,505185,5,15705.62,Escalated,4,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5186,505186,5,18559.87,Unassigned,10,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5187,505187,1,18402.44,Assigned,15,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5188,505188,3,22463.39,Assigned,13,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5189,505189,2,8359.97,Assigned,20,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5190,505190,1,15272.26,Escalated,14,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5191,505191,3,4184.72,Unassigned,7,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5192,505192,4,12831.17,Unassigned,19,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5193,505193,1,6885.3,Assigned,12,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5194,505194,6,7435.44,Escalated,12,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5195,505195,6,1791.66,Unassigned,15,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5196,505196,3,9961.37,Unassigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5197,505197,8,10522.47,Assigned,6,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5198,505198,2,23546.39,Escalated,6,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5199,505199,8,23513.03,Escalated,19,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5200,505200,1,3510.55,Unassigned,9,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5201,505201,1,13844.39,Escalated,4,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5202,505202,3,10692.2,Unassigned,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5203,505203,7,4595.23,Unassigned,14,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5204,505204,8,10946.52,Escalated,6,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5205,505205,5,11778.95,Unassigned,10,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5206,505206,4,12297.93,Escalated,10,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5207,505207,5,21247.26,Unassigned,14,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5208,505208,6,15646.33,Unassigned,20,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5209,505209,3,9159.51,Assigned,4,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5210,505210,5,21210.14,Unassigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5211,505211,5,2843.14,Unassigned,9,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5212,505212,8,6218.52,Escalated,1,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5213,505213,3,1484.73,Escalated,6,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5214,505214,4,12489.31,Assigned,15,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5215,505215,4,13088.45,Escalated,7,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5216,505216,1,23332.71,Assigned,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5217,505217,5,8625.91,Unassigned,18,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5218,505218,1,3603.07,Escalated,5,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5219,505219,3,18682.41,Unassigned,1,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5220,505220,6,14373.55,Escalated,17,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5221,505221,5,23433.77,Assigned,5,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5222,505222,7,6575.33,Escalated,18,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5223,505223,6,13015.48,Escalated,18,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5224,505224,5,14691.85,Assigned,19,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5225,505225,5,4906.5,Assigned,15,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5226,505226,8,22561.65,Unassigned,11,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5227,505227,3,2100.34,Unassigned,20,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5228,505228,1,14525.49,Assigned,1,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5229,505229,2,7463.14,Assigned,3,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5230,505230,6,24330.14,Escalated,16,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5231,505231,4,104.95,Unassigned,2,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5232,505232,7,18086.72,Unassigned,6,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5233,505233,3,11271.08,Unassigned,11,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5234,505234,6,22142.8,Escalated,6,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5235,505235,2,6552.66,Assigned,4,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5236,505236,4,4179.55,Escalated,3,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5237,505237,6,4487.06,Escalated,16,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5238,505238,4,18636.75,Escalated,20,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5239,505239,5,13781.41,Unassigned,9,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5240,505240,5,18086.17,Unassigned,12,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5241,505241,6,2294.07,Unassigned,15,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5242,505242,4,8979.15,Assigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5243,505243,8,13821.52,Escalated,1,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5244,505244,5,89.85,Unassigned,10,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5245,505245,5,3298.21,Assigned,11,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5246,505246,8,3241.53,Escalated,12,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5247,505247,7,7608.31,Unassigned,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5248,505248,5,4738.46,Unassigned,20,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5249,505249,2,21632.41,Escalated,9,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5250,505250,6,19280.35,Assigned,1,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5251,505251,6,9424.98,Assigned,13,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5252,505252,8,7641.31,Unassigned,1,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5253,505253,1,18391.19,Assigned,1,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5254,505254,3,12448.0,Escalated,19,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5255,505255,1,12672.18,Escalated,20,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5256,505256,6,7280.55,Assigned,7,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5257,505257,2,2140.65,Unassigned,4,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5258,505258,5,22199.8,Assigned,10,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5259,505259,8,23313.43,Unassigned,17,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5260,505260,3,8799.27,Escalated,2,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5261,505261,1,2973.37,Assigned,18,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5262,505262,6,12946.41,Escalated,9,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5263,505263,5,6265.47,Assigned,20,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5264,505264,6,6656.33,Escalated,16,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5265,505265,4,6817.3,Escalated,20,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5266,505266,5,21046.82,Unassigned,1,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5267,505267,4,16307.94,Assigned,1,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5268,505268,3,3197.93,Unassigned,6,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5269,505269,7,477.27,Assigned,10,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5270,505270,4,3157.34,Escalated,17,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5271,505271,8,4016.13,Assigned,15,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5272,505272,2,10100.41,Assigned,11,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5273,505273,1,13314.55,Unassigned,8,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5274,505274,4,16595.71,Escalated,5,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5275,505275,8,13621.19,Escalated,9,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5276,505276,1,20663.5,Assigned,4,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5277,505277,7,7553.32,Escalated,11,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5278,505278,8,1063.1,Assigned,11,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5279,505279,8,3294.31,Assigned,18,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5280,505280,2,23406.5,Unassigned,16,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5281,505281,1,10883.87,Unassigned,13,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5282,505282,7,590.56,Escalated,11,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5283,505283,7,19188.63,Assigned,15,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5284,505284,3,19671.54,Assigned,7,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5285,505285,4,18674.9,Assigned,18,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5286,505286,4,19032.01,Assigned,9,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5287,505287,2,1264.09,Escalated,17,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5288,505288,8,13874.68,Unassigned,9,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5289,505289,2,8660.95,Unassigned,1,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5290,505290,1,3225.07,Unassigned,13,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5291,505291,1,21339.22,Escalated,9,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5292,505292,1,6746.53,Unassigned,3,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5293,505293,2,6479.01,Assigned,5,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5294,505294,3,19931.64,Assigned,10,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5295,505295,6,19850.0,Unassigned,6,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5296,505296,7,16154.77,Assigned,1,High Balance,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5297,505297,4,21308.55,Assigned,11,Follow Up,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5298,505298,1,5161.76,Assigned,6,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5299,505299,3,4520.64,Assigned,15,Denials,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv
+5300,505300,8,3379.02,Assigned,6,Early Out,2026-01-12 08:00:00,2026-01-12 08:00:00,batch_002,accounts_batch_002.csv

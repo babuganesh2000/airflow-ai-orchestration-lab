@@ -1,0 +1,45 @@
+name: "claims_analytics"
+version: "1.0.0"
+config-version: 2
+
+profile: "claims_analytics"
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+snapshot-paths: ["snapshots"]
+macro-paths: ["macros"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  claims_analytics:
+    +persist_docs:
+      relation: true
+      columns: true
+
+    staging:
+      +schema: STG
+      +materialized: view
+
+    intermediate:
+      +schema: INT
+      +materialized: view
+
+    marts:
+      +schema: MART
+      finance:
+        +materialized: table
+      operations:
+        +materialized: table
+
+snapshots:
+  claims_analytics:
+    +target_schema: SNAPSHOT
+
+vars:
+  late_arrival_lookback_days: 7

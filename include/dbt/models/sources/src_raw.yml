@@ -1,0 +1,98 @@
+version: 2
+
+sources:
+  - name: raw
+    database: AF_CLAIMS_ANALYTICS
+    schema: RAW
+
+    tables:
+      - name: accounts_raw
+        description: "Append-only accounts data loaded from staged CSV batches."
+        config:
+          loaded_at_field: load_ts
+          freshness:
+            warn_after: {count: 2, period: day}
+            error_after: {count: 3, period: day}
+        columns:
+          - name: account_id
+            data_tests:
+              - not_null
+          - name: patient_id
+            data_tests:
+              - not_null
+          - name: collector_id
+            data_tests:
+              - not_null
+          - name: batch_id
+            data_tests:
+              - not_null
+          - name: src_file_name
+            data_tests:
+              - not_null
+
+      - name: claims_raw
+        description: "Append-only claims data loaded from staged CSV batches."
+        config:
+          loaded_at_field: load_ts
+          freshness:
+            warn_after: {count: 2, period: day}
+            error_after: {count: 3, period: day}
+        columns:
+          - name: claim_id
+            data_tests:
+              - not_null
+          - name: account_id
+            data_tests:
+              - not_null
+          - name: claim_status
+            data_tests:
+              - accepted_values:
+                  values: ['OPEN', 'PENDING', 'PAID', 'DENIED']
+          - name: batch_id
+            data_tests:
+              - not_null
+
+      - name: remittances_raw
+        description: "Append-only remittance data loaded from staged CSV batches."
+        config:
+          loaded_at_field: load_ts
+          freshness:
+            warn_after: {count: 2, period: day}
+            error_after: {count: 3, period: day}
+        columns:
+          - name: remit_id
+            data_tests:
+              - not_null
+          - name: claim_id
+            data_tests:
+              - not_null
+          - name: batch_id
+            data_tests:
+              - not_null
+
+      - name: workqueue_actions_raw
+        description: "Append-only workqueue actions from collectors."
+        config:
+          loaded_at_field: load_ts
+          freshness:
+            warn_after: {count: 2, period: day}
+            error_after: {count: 3, period: day}
+        columns:
+          - name: action_id
+            data_tests:
+              - not_null
+          - name: account_id
+            data_tests:
+              - not_null
+          - name: batch_id
+            data_tests:
+              - not_null
+
+      - name: collectors_raw
+        description: "Collector reference data"
+
+      - name: payers_raw
+        description: "Payer reference data"
+
+      - name: facilities_raw
+        description: "Facility reference data"

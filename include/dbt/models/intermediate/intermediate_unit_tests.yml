@@ -1,0 +1,18 @@
+version: 2
+
+unit_tests:
+  - name: test_claim_denial_flag
+    model: int_claim_grain
+    given:
+      - input: ref('stg_claims')
+        rows:
+          - {claim_id: 1, account_id: 101, facility_id: 1, payer_id: 1, service_date: '2026-01-01', billed_amount: 100, claim_status: 'DENIED', load_ts: '2026-01-03', batch_id: 1, src_file_name: 'claims.csv'}
+          - {claim_id: 2, account_id: 102, facility_id: 1, payer_id: 1, service_date: '2026-01-02', billed_amount: 200, claim_status: 'PAID', load_ts: '2026-01-03', batch_id: 1, src_file_name: 'claims.csv'}
+      - input: ref('stg_accounts')
+        rows:
+          - {account_id: 101, patient_id: 1, facility_id: 1, current_balance: 100, assignment_status: 'Assigned', collector_id: 11, queue_name: 'Denials', updated_at: '2026-01-03', load_ts: '2026-01-03'}
+          - {account_id: 102, patient_id: 2, facility_id: 1, current_balance: 0, assignment_status: 'Assigned', collector_id: 12, queue_name: 'Follow Up', updated_at: '2026-01-03', load_ts: '2026-01-03'}
+    expect:
+      rows:
+        - {claim_id: 1, is_denied: true}
+        - {claim_id: 2, is_denied: false}

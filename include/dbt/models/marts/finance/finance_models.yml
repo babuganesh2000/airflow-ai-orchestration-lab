@@ -1,0 +1,47 @@
+version: 2
+
+models:
+  - name: fct_ar_aging_snapshot
+    description: Claim-day AR aging snapshot fact
+    config:
+      contract:
+        enforced: true
+
+    columns:
+      - name: claim_snapshot_key
+        data_type: varchar
+        data_tests:
+          - unique
+          - not_null
+
+      - name: snapshot_date
+        data_type: date
+
+      - name: claim_id
+        data_type: number(38,0)
+        data_tests:
+          - not_null
+
+      - name: account_id
+        data_type: number(38,0)
+
+      - name: facility_id
+        data_type: number(38,0)
+
+      - name: payer_id
+        data_type: number(38,0)
+
+      - name: billed_amount
+        data_type: number(18,2)
+
+      - name: balance_amount
+        data_type: number(18,2)
+
+      - name: claim_status
+        data_type: varchar
+        data_tests:
+          - accepted_values:
+              values: ['OPEN', 'PAID', 'DENIED', 'PENDING']
+
+      - name: is_denied
+        data_type: boolean
