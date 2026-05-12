@@ -17,6 +17,8 @@ transformations and tests, and Cosmos renders dbt resources as Airflow tasks.
 
 from __future__ import annotations
 
+import csv
+import logging
 import subprocess
 import sys
 from datetime import timedelta
@@ -24,11 +26,14 @@ from pathlib import Path
 
 from airflow.providers.common.sql.operators.sql import SQLExecuteQueryOperator
 from airflow.sdk import dag, task
+from airflow.task.trigger_rule import TriggerRule
 from cosmos import DbtTaskGroup, ExecutionConfig, ProfileConfig, ProjectConfig, RenderConfig
 from cosmos.constants import ExecutionMode, LoadMode
 from cosmos.profiles import SnowflakeUserPasswordProfileMapping
 from pendulum import datetime
 
+
+LOGGER = logging.getLogger(__name__)
 
 SNOWFLAKE_CONN_ID = "snowflake_default"
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -53,6 +58,59 @@ BATCH_ENTITIES = {
     "claims": "CLAIMS_RAW",
     "remittances": "REMITTANCES_RAW",
     "workqueue_actions": "WORKQUEUE_ACTIONS_RAW",
+}
+
+REQUIRED_COLUMNS = {
+    "accounts": {
+        "account_id",
+        "patient_id",
+        "facility_id",
+        "current_balance",
+        "assignment_status",
+        "collector_id",
+        "queue_name",
+        "updated_at",
+        "load_ts",
+        "batch_id",
+        "src_file_name",
+    },
+    "claims": {
+        "claim_id",
+        "account_id",
+        "facility_id",
+        "payer_id",
+        "service_date",
+        "billed_amount",
+        "claim_status",
+        "load_ts",
+        "batch_id",
+        "src_file_name",
+    },
+    "remittances": {
+        "remit_id",
+        "claim_id",
+        "payment_date",
+        "paid_amount",
+        "adjustment_amount",
+        "carc_code",
+        "rarc_code",
+        "remit_status",
+        "load_ts",
+        "batch_id",
+        "src_file_name",
+    },
+    "workqueue_actions": {
+        "action_id",
+        "account_id",
+        "collector_id",
+        "action_date",
+        "action_type",
+        "note_count",
+        "worked_flag",
+        "load_ts",
+        "batch_id",
+        "src_file_name",
+    },
 }
 
 PROFILE_CONFIG = ProfileConfig(
@@ -324,6 +382,11 @@ def _dbt_task_group(batch_id: str) -> DbtTaskGroup:
     )
 
 
+def _count_csv_rows(file_path: Path) -> int:
+    with file_path.open("r", encoding="utf-8", newline="") as csv_file:
+        return max(sum(1 for _ in csv_file) - 1, 0)
+
+
 @dag(
     dag_id="snowflake_dbt_cosmos_enterprise_pipeline",
     schedule=None,
@@ -338,15 +401,78 @@ def _dbt_task_group(batch_id: str) -> DbtTaskGroup:
     doc_md=__doc__,
 )
 def snowflake_dbt_cosmos_enterprise_pipeline() -> None:
-    @task(task_id="generate_local_synthetic_batches", do_xcom_push=False)
-    def generate_local_synthetic_batches() -> None:
+    @task(task_id="extract_source_batches")
+    def extract_source_batches() -> list[dict[str, str]]:
+        LOGGER.info("Starting extract for deterministic local source batches.")
         subprocess.run(
             [sys.executable, str(SYNTHETIC_BATCH_SCRIPT)],
             cwd=str(PROJECT_ROOT),
             check=True,
         )
+        batch_metadata = [
+            {"batch_id": batch_id, "source_path": str(PROJECT_ROOT / "data" / batch_id)}
+            for batch_id in BATCHES
+        ]
+        LOGGER.info("Extracted %s source batches.", len(batch_metadata))
+        return batch_metadata
 
-    generate_batches = generate_local_synthetic_batches()
+    @task(task_id="validate_batch_quality")
+    def validate_batch_quality(batch_id: str) -> dict[str, object]:
+        batch_path = PROJECT_ROOT / "data" / batch_id
+        row_counts = {}
+
+        LOGGER.info("Validating local batch quality for %s.", batch_id)
+        for entity, required_columns in REQUIRED_COLUMNS.items():
+            file_path = batch_path / f"{entity}.csv"
+            if not file_path.exists():
+                raise FileNotFoundError(f"Missing required source file: {file_path}")
+
+            with file_path.open("r", encoding="utf-8", newline="") as csv_file:
+                reader = csv.DictReader(csv_file)
+                actual_columns = set(reader.fieldnames or [])
+
+            missing_columns = sorted(required_columns - actual_columns)
+            if missing_columns:
+                raise ValueError(
+                    f"{file_path} is missing required columns: {missing_columns}"
+                )
+
+            row_count = _count_csv_rows(file_path)
+            if row_count == 0:
+                raise ValueError(f"{file_path} has no data rows")
+
+            row_counts[entity] = row_count
+
+        validation_metadata = {
+            "batch_id": batch_id,
+            "status": "PASSED",
+            "row_counts": row_counts,
+        }
+        LOGGER.info("Data quality validation passed for %s: %s", batch_id, row_counts)
+        return validation_metadata
+
+    @task(task_id="alert_pipeline_completion", trigger_rule=TriggerRule.ALL_DONE)
+    def alert_pipeline_completion(
+        validation_results: list[dict[str, object]], **context
+    ) -> None:
+        dag_run = context.get("dag_run")
+        run_id = getattr(dag_run, "run_id", "unknown")
+        LOGGER.info(
+            "Enterprise claims pipeline finished for run_id=%s with validation=%s",
+            run_id,
+            validation_results,
+        )
+
+    extracted_batches = extract_source_batches()
+    validate_batch_001 = validate_batch_quality.override(
+        task_id="validate_batch_001_quality"
+    )("batch_001")
+    validate_batch_002 = validate_batch_quality.override(
+        task_id="validate_batch_002_quality"
+    )("batch_002")
+    validate_batch_003 = validate_batch_quality.override(
+        task_id="validate_batch_003_quality"
+    )("batch_003")
 
     initialize_snowflake = SQLExecuteQueryOperator(
         task_id="initialize_snowflake_raw_objects",
@@ -405,10 +531,19 @@ def snowflake_dbt_cosmos_enterprise_pipeline() -> None:
         pool="snowflake_pool",
     )
 
-    generate_batches >> initialize_snowflake
-    initialize_snowflake >> load_batch_001 >> dbt_after_batch_001 >> complete_batch_001
-    complete_batch_001 >> load_batch_002 >> dbt_after_batch_002 >> complete_batch_002
-    complete_batch_002 >> load_batch_003 >> dbt_after_batch_003 >> complete_batch_003
+    extracted_batches >> initialize_snowflake
+    extracted_batches >> [validate_batch_001, validate_batch_002, validate_batch_003]
+    [initialize_snowflake, validate_batch_001] >> load_batch_001
+    load_batch_001 >> dbt_after_batch_001 >> complete_batch_001
+    [complete_batch_001, validate_batch_002] >> load_batch_002
+    load_batch_002 >> dbt_after_batch_002 >> complete_batch_002
+    [complete_batch_002, validate_batch_003] >> load_batch_003
+    load_batch_003 >> dbt_after_batch_003 >> complete_batch_003
+
+    alert = alert_pipeline_completion(
+        [validate_batch_001, validate_batch_002, validate_batch_003]
+    )
+    [complete_batch_001, complete_batch_002, complete_batch_003] >> alert
 
 
 snowflake_dbt_cosmos_enterprise_pipeline()

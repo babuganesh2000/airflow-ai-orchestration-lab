@@ -80,7 +80,10 @@ def test_expected_task_structure(enterprise_dag):
         pytest.skip("DAG not loaded")
 
     task_ids = {task.task_id for task in enterprise_dag.tasks}
-    assert "generate_local_synthetic_batches" in task_ids
+    assert "extract_source_batches" in task_ids
+    assert "validate_batch_001_quality" in task_ids
+    assert "validate_batch_002_quality" in task_ids
+    assert "validate_batch_003_quality" in task_ids
     assert "initialize_snowflake_raw_objects" in task_ids
     assert "load_batch_001_to_raw" in task_ids
     assert "load_batch_002_to_raw" in task_ids
@@ -88,6 +91,7 @@ def test_expected_task_structure(enterprise_dag):
     assert "complete_batch_001_audit" in task_ids
     assert "complete_batch_002_audit" in task_ids
     assert "complete_batch_003_audit" in task_ids
+    assert "alert_pipeline_completion" in task_ids
     for batch_suffix in ["001", "002", "003"]:
         assert any(
             f"dbt_after_batch_{batch_suffix}" in task_id
@@ -135,20 +139,29 @@ def test_each_batch_load_runs_before_its_dbt_group_and_audit(enterprise_dag):
     complete_batch_001 = enterprise_dag.get_task("complete_batch_001_audit")
     complete_batch_002 = enterprise_dag.get_task("complete_batch_002_audit")
     complete_batch_003 = enterprise_dag.get_task("complete_batch_003_audit")
+    alert_pipeline_completion = enterprise_dag.get_task("alert_pipeline_completion")
 
-    assert "generate_local_synthetic_batches" in initialize_task.upstream_task_ids
+    assert "extract_source_batches" in initialize_task.upstream_task_ids
+    assert "validate_batch_001_quality" in load_batch_001.upstream_task_ids
     assert "initialize_snowflake_raw_objects" in load_batch_001.upstream_task_ids
     assert any(
         task_id.startswith("dbt_after_batch_001")
         for task_id in complete_batch_001.upstream_task_ids
     )
     assert "complete_batch_001_audit" in load_batch_002.upstream_task_ids
+    assert "validate_batch_002_quality" in load_batch_002.upstream_task_ids
     assert any(
         task_id.startswith("dbt_after_batch_002")
         for task_id in complete_batch_002.upstream_task_ids
     )
     assert "complete_batch_002_audit" in load_batch_003.upstream_task_ids
+    assert "validate_batch_003_quality" in load_batch_003.upstream_task_ids
     assert any(
         task_id.startswith("dbt_after_batch_003")
         for task_id in complete_batch_003.upstream_task_ids
     )
+    assert {
+        "complete_batch_001_audit",
+        "complete_batch_002_audit",
+        "complete_batch_003_audit",
+    }.issubset(alert_pipeline_completion.upstream_task_ids)
